@@ -7338,20 +7338,8 @@ body:has(.fenext-input-radio-input-id-fenext-swich-view-fenext-swich-view-select
   aspect-ratio: 1/1;
 }
 
-.my-project-form {
-  display: grid;
-  gap: 1rem;
-}
-
 .my-project-user {
   --fenext-size-user: 2rem;
-  column-gap: 0.5rem;
-}
-.my-project-user .fenext-user-name {
-  font-size: 0.8rem;
-}
-.my-project-user .fenext-user-email {
-  font-size: 0.6rem;
 }
 
 .dainsa-info {
