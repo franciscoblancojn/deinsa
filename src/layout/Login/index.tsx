@@ -14,9 +14,25 @@ export const LayoutLogin = ({ children }: LayoutLoginProps) => {
             <LayoutGridMenuTop
                 className="layout-login"
                 menuTop={<HeaderLogin />}
+                classNameChildren={`
+                    grid    
+                `}
             >
-                <div className="layout-login-content">
-                    <Container>
+                <div className={`
+                    layout-login-content
+                    py-4
+                    grid
+                    items-center    
+                `}>
+                    <Container
+                        className={`
+                            grid
+                            grid-cols-1
+                            md:grid-cols-2
+                            gap-12
+                            items-center  
+                        `}
+                    >
                         <DeinsaInfo />
                         <div>{children}</div>
                     </Container>

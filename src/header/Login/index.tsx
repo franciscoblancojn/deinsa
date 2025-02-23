@@ -25,7 +25,7 @@ export const HeaderLogin = ({}: HeaderLoginProps) => {
 
                 `}>
                     <div className='w-6'>
-                    <Logo />
+                        <Logo />
                     </div>
                     <Title tag="h4">Deinsa</Title>
                 </Link>

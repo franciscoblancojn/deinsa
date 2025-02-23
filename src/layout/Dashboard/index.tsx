@@ -18,8 +18,22 @@ export const LayoutDashboard = ({ children }: LayoutDashboardProps) => {
                     className="layout-dashboard"
                     menuTop={<HeaderDashboard />}
                     menuLeft={<HeaderDashboardLeft />}
+                    classNameChildren={`
+                      grid  
+                    `}
+                    classNameMenuLeft={`
+                      grid  
+                    `}
+                    classNameMenuLeftContent={`
+                      grid  
+                    `}
                 >
-                    <div className="layout-dashboard-content">
+                    <div className={`
+                        layout-dashboard-content
+                        grid
+                        py-4
+                        relative    
+                    `}>
                         <Container>{children}</Container>
                     </div>
                 </LayoutGridMenuTopLeft>

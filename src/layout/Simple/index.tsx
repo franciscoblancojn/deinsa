@@ -17,7 +17,13 @@ export const LayoutSimple = ({
         <>
             <div className="layout-simple">
                 {loader ? (
-                    <Loader />
+                    <Loader 
+                        classNameLoader={`
+                            absolute
+                            inset-0
+                            m-auto  
+                        `}
+                    />
                 ) : (
                     <>
                         {error ? (
