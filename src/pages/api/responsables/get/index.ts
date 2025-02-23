@@ -1,9 +1,8 @@
 import { ApiEndPoint } from '@/api/endpoint';
 import { IApiQuery, IApiResultTable } from '@/interface/api';
 import { IResponsables } from '@/interface/responsables';
-import { IStatus } from '@/interface/status';
-import { IApiResult, parseNumber, sleep } from 'fenextjs';
-import { IRole } from '@/interface/role';
+import { IApiResult, parseNumber } from 'fenextjs';
+import responsables from "@/data/responsables.json"
 
 export default ApiEndPoint<IApiResultTable<IResponsables>>(async (req, res) => {
     const { search, status, ...query } = (req?.query ?? {}) as IApiQuery;
@@ -12,25 +11,9 @@ export default ApiEndPoint<IApiResultTable<IResponsables>>(async (req, res) => {
     const npage = parseNumber(query?.npage ?? 10);
     const page = parseNumber(query?.page ?? 0);
 
-    await sleep(2000);
+    const count = responsables.length;
 
-    const count = 50;
-
-    const items: IResponsables[] = new Array(count)
-        .fill(1)
-        .map((_, i) => {
-            const r: IResponsables = {
-                id: `${i}`,
-                name: 'Usuario ' + i,
-                email: `user${i}@gmail.com`,
-                status: Object.values(IStatus)[i % 3],
-                role: Object.values(IRole)[i % 2],
-                createdAt: new Date().toISOString(),
-                updatedAt: new Date().toISOString(),
-            };
-            return r;
-        })
-        .filter((e) => {
+    const items: IResponsables[] = (responsables as IResponsables[]).filter((e) => {
             if (search) {
                 return (
                     e?.name?.toLowerCase().includes(search.toLowerCase()) ||

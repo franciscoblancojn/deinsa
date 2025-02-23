@@ -1,0 +1,452 @@
+[
+    {
+        "id": "0",
+        "name": "Usuario 0",
+        "email": "user0@gmail.com",
+        "status": "ACTIVE",
+        "role": "ADMIN",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "1",
+        "name": "Usuario 1",
+        "email": "user1@gmail.com",
+        "status": "INACTIVE",
+        "role": "PRODUCTMANAGER",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "2",
+        "name": "Usuario 2",
+        "email": "user2@gmail.com",
+        "status": "DELETE",
+        "role": "ADMIN",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "3",
+        "name": "Usuario 3",
+        "email": "user3@gmail.com",
+        "status": "ACTIVE",
+        "role": "PRODUCTMANAGER",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "4",
+        "name": "Usuario 4",
+        "email": "user4@gmail.com",
+        "status": "INACTIVE",
+        "role": "ADMIN",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "5",
+        "name": "Usuario 5",
+        "email": "user5@gmail.com",
+        "status": "DELETE",
+        "role": "PRODUCTMANAGER",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "6",
+        "name": "Usuario 6",
+        "email": "user6@gmail.com",
+        "status": "ACTIVE",
+        "role": "ADMIN",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "7",
+        "name": "Usuario 7",
+        "email": "user7@gmail.com",
+        "status": "INACTIVE",
+        "role": "PRODUCTMANAGER",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "8",
+        "name": "Usuario 8",
+        "email": "user8@gmail.com",
+        "status": "DELETE",
+        "role": "ADMIN",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "9",
+        "name": "Usuario 9",
+        "email": "user9@gmail.com",
+        "status": "ACTIVE",
+        "role": "PRODUCTMANAGER",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "10",
+        "name": "Usuario 10",
+        "email": "user10@gmail.com",
+        "status": "INACTIVE",
+        "role": "ADMIN",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "11",
+        "name": "Usuario 11",
+        "email": "user11@gmail.com",
+        "status": "DELETE",
+        "role": "PRODUCTMANAGER",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "12",
+        "name": "Usuario 12",
+        "email": "user12@gmail.com",
+        "status": "ACTIVE",
+        "role": "ADMIN",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "13",
+        "name": "Usuario 13",
+        "email": "user13@gmail.com",
+        "status": "INACTIVE",
+        "role": "PRODUCTMANAGER",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "14",
+        "name": "Usuario 14",
+        "email": "user14@gmail.com",
+        "status": "DELETE",
+        "role": "ADMIN",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "15",
+        "name": "Usuario 15",
+        "email": "user15@gmail.com",
+        "status": "ACTIVE",
+        "role": "PRODUCTMANAGER",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "16",
+        "name": "Usuario 16",
+        "email": "user16@gmail.com",
+        "status": "INACTIVE",
+        "role": "ADMIN",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "17",
+        "name": "Usuario 17",
+        "email": "user17@gmail.com",
+        "status": "DELETE",
+        "role": "PRODUCTMANAGER",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "18",
+        "name": "Usuario 18",
+        "email": "user18@gmail.com",
+        "status": "ACTIVE",
+        "role": "ADMIN",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "19",
+        "name": "Usuario 19",
+        "email": "user19@gmail.com",
+        "status": "INACTIVE",
+        "role": "PRODUCTMANAGER",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "20",
+        "name": "Usuario 20",
+        "email": "user20@gmail.com",
+        "status": "DELETE",
+        "role": "ADMIN",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "21",
+        "name": "Usuario 21",
+        "email": "user21@gmail.com",
+        "status": "ACTIVE",
+        "role": "PRODUCTMANAGER",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "22",
+        "name": "Usuario 22",
+        "email": "user22@gmail.com",
+        "status": "INACTIVE",
+        "role": "ADMIN",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "23",
+        "name": "Usuario 23",
+        "email": "user23@gmail.com",
+        "status": "DELETE",
+        "role": "PRODUCTMANAGER",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "24",
+        "name": "Usuario 24",
+        "email": "user24@gmail.com",
+        "status": "ACTIVE",
+        "role": "ADMIN",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "25",
+        "name": "Usuario 25",
+        "email": "user25@gmail.com",
+        "status": "INACTIVE",
+        "role": "PRODUCTMANAGER",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "26",
+        "name": "Usuario 26",
+        "email": "user26@gmail.com",
+        "status": "DELETE",
+        "role": "ADMIN",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "27",
+        "name": "Usuario 27",
+        "email": "user27@gmail.com",
+        "status": "ACTIVE",
+        "role": "PRODUCTMANAGER",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "28",
+        "name": "Usuario 28",
+        "email": "user28@gmail.com",
+        "status": "INACTIVE",
+        "role": "ADMIN",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "29",
+        "name": "Usuario 29",
+        "email": "user29@gmail.com",
+        "status": "DELETE",
+        "role": "PRODUCTMANAGER",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "30",
+        "name": "Usuario 30",
+        "email": "user30@gmail.com",
+        "status": "ACTIVE",
+        "role": "ADMIN",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "31",
+        "name": "Usuario 31",
+        "email": "user31@gmail.com",
+        "status": "INACTIVE",
+        "role": "PRODUCTMANAGER",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "32",
+        "name": "Usuario 32",
+        "email": "user32@gmail.com",
+        "status": "DELETE",
+        "role": "ADMIN",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "33",
+        "name": "Usuario 33",
+        "email": "user33@gmail.com",
+        "status": "ACTIVE",
+        "role": "PRODUCTMANAGER",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "34",
+        "name": "Usuario 34",
+        "email": "user34@gmail.com",
+        "status": "INACTIVE",
+        "role": "ADMIN",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "35",
+        "name": "Usuario 35",
+        "email": "user35@gmail.com",
+        "status": "DELETE",
+        "role": "PRODUCTMANAGER",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "36",
+        "name": "Usuario 36",
+        "email": "user36@gmail.com",
+        "status": "ACTIVE",
+        "role": "ADMIN",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "37",
+        "name": "Usuario 37",
+        "email": "user37@gmail.com",
+        "status": "INACTIVE",
+        "role": "PRODUCTMANAGER",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "38",
+        "name": "Usuario 38",
+        "email": "user38@gmail.com",
+        "status": "DELETE",
+        "role": "ADMIN",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "39",
+        "name": "Usuario 39",
+        "email": "user39@gmail.com",
+        "status": "ACTIVE",
+        "role": "PRODUCTMANAGER",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "40",
+        "name": "Usuario 40",
+        "email": "user40@gmail.com",
+        "status": "INACTIVE",
+        "role": "ADMIN",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "41",
+        "name": "Usuario 41",
+        "email": "user41@gmail.com",
+        "status": "DELETE",
+        "role": "PRODUCTMANAGER",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "42",
+        "name": "Usuario 42",
+        "email": "user42@gmail.com",
+        "status": "ACTIVE",
+        "role": "ADMIN",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "43",
+        "name": "Usuario 43",
+        "email": "user43@gmail.com",
+        "status": "INACTIVE",
+        "role": "PRODUCTMANAGER",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "44",
+        "name": "Usuario 44",
+        "email": "user44@gmail.com",
+        "status": "DELETE",
+        "role": "ADMIN",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "45",
+        "name": "Usuario 45",
+        "email": "user45@gmail.com",
+        "status": "ACTIVE",
+        "role": "PRODUCTMANAGER",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "46",
+        "name": "Usuario 46",
+        "email": "user46@gmail.com",
+        "status": "INACTIVE",
+        "role": "ADMIN",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "47",
+        "name": "Usuario 47",
+        "email": "user47@gmail.com",
+        "status": "DELETE",
+        "role": "PRODUCTMANAGER",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "48",
+        "name": "Usuario 48",
+        "email": "user48@gmail.com",
+        "status": "ACTIVE",
+        "role": "ADMIN",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    },
+    {
+        "id": "49",
+        "name": "Usuario 49",
+        "email": "user49@gmail.com",
+        "status": "INACTIVE",
+        "role": "PRODUCTMANAGER",
+        "createdAt": "2025-02-23T15:42:33.256Z",
+        "updatedAt": "2025-02-23T15:42:33.256Z"
+    }
+]
