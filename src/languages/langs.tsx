@@ -133,4 +133,29 @@ export const LANGUAGE_LIST: LanguageListProps<LIST_LANGS_TYPE> = {
         es: 'Fecha de actualizacion',
         en: 'Update Date',
     },
+
+    Search: {
+        es: 'Buscar',
+        en: 'Search',
+    },
+    'Filtrar por fecha:': {
+        es: 'Filtrar por fecha:',
+        en: 'Filter by date:',
+    },
+    'Filtar por fecha': {
+        es: 'Filtar por fecha',
+        en: 'Filter by date',
+    },
+    'Filtar por rango': {
+        es: 'Filtar por rango',
+        en: 'Filter by range',
+    },
+    Hoy: {
+        es: 'Hoy',
+        en: 'Today',
+    },
+    'Esta Semana': {
+        es: 'Esta Semana',
+        en: 'This Week',
+    },
 };
