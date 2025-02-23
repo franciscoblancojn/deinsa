@@ -1,19 +1,19 @@
 import React, { PropsWithChildren } from "react";
 import { StoryFn, Meta } from "@storybook/react";
 
-import { FenextjsInfo, FenextjsInfoProps } from "./index";
+import { DeinsaInfo, DeinsaInfoProps } from "./index";
 
 export default {
-    title: "Component/FenextjsInfo",
-    component: FenextjsInfo,
+    title: "Component/DeinsaInfo",
+    component: DeinsaInfo,
 } as Meta;
 
-const Profile: StoryFn<PropsWithChildren<FenextjsInfoProps>> = (args) => (
-    <FenextjsInfo {...args}>Test Children</FenextjsInfo>
+const Profile: StoryFn<PropsWithChildren<DeinsaInfoProps>> = (args) => (
+    <DeinsaInfo {...args}>Test Children</DeinsaInfo>
 );
 
 export const Index = Profile.bind({});
-const args : FenextjsInfoProps = {
+const args : DeinsaInfoProps = {
     
 }
 Index.args = args

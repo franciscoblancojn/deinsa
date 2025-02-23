@@ -9,20 +9,19 @@ export interface DeinsaInfoProps {}
 export const DeinsaInfo = ({}: DeinsaInfoProps) => {
     return (
         <>
-            <div className="fenextjs-info">
-                <div className="fenextjs-info-top">
-                    <div className='w-16'>
-                    <Logo/>
+            <div className="dainsa-info">
+                <div className="dainsa-info-top">
+                    <div className="w-16">
+                        <Logo />
                     </div>
                     <Title>Deinsa</Title>
                 </div>
                 <Text>Este es el Deinsa.</Text>
                 <Text>
-                    Espero les guste la integracion que hice con Nextjs 14, typescript, tailwindcss y fenextjs
+                    Espero les guste la integracion que hice con Nextjs 14,
+                    typescript, tailwindcss y fenextjs
                 </Text>
-                <Text>
-                    Pueden usar este usuario para acceder:
-                </Text>
+                <Text>Pueden usar este usuario para acceder:</Text>
                 <Text tag="strong" useT={false}>
                     <Text tag="strong">Usuario</Text> : user@gmail.com
                 </Text>

@@ -19,7 +19,9 @@ export const PageResponsables = () => {
                             <Col1frAuto>
                                 <div>
                                     <Title>Responsables</Title>
-                                    <Text>Aqui puedes mirar tus Responsables.</Text>
+                                    <Text>
+                                        Aqui puedes mirar tus Responsables.
+                                    </Text>
                                 </div>
                             </Col1frAuto>
                         </>

@@ -88,7 +88,10 @@ export const TableResponsables = ({ ...props }: TableResponsablesProps) => {
                     th: 'ID',
                     parse: (user) => {
                         return (
-                            <Link useT={false} href={URL.responsables.index + user.id}>
+                            <Link
+                                useT={false}
+                                href={URL.responsables.index + user.id}
+                            >
                                 {user?.id}
                             </Link>
                         );
@@ -99,7 +102,10 @@ export const TableResponsables = ({ ...props }: TableResponsablesProps) => {
                     th: 'Nombre',
                     parse: (user) => {
                         return (
-                            <Link useT={false} href={URL.responsables.index + user.id}>
+                            <Link
+                                useT={false}
+                                href={URL.responsables.index + user.id}
+                            >
                                 {user?.name}
                             </Link>
                         );

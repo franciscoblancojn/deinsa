@@ -1,7 +1,9 @@
-import { SvgLogo } from "@/svg/logo"
+import { SvgLogo } from '@/svg/logo';
 
 export const Logo = () => {
-    return <>
-        <SvgLogo/>
-    </>
-}
+    return (
+        <>
+            <SvgLogo />
+        </>
+    );
+};

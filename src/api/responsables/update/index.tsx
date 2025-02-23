@@ -9,7 +9,10 @@ export interface useUpdateResponsablesInputProps {
 export interface useUpdateResponsablesProps {}
 export const useUpdateResponsables = ({}: useUpdateResponsablesProps) => {
     const { pop } = useNotification({});
-    return useApiMutation<useUpdateResponsablesInputProps, IApiRespond<unknown>>({
+    return useApiMutation<
+        useUpdateResponsablesInputProps,
+        IApiRespond<unknown>
+    >({
         url: '/api/responsables/update',
         key: 'responsables',
         options: {

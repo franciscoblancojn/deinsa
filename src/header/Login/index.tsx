@@ -12,7 +12,7 @@ export const HeaderLogin = ({}: HeaderLoginProps) => {
         <>
             <Container className="header-login">
                 <Link href={URL.home.index} className="header-login-logo">
-                    <Logo/>
+                    <Logo />
                     <Title tag="h4">Deinsa</Title>
                 </Link>
                 <div>

@@ -2,7 +2,7 @@ import { ApiEndPoint } from '@/api/endpoint';
 import { IApiQuery, IApiResultTable } from '@/interface/api';
 import { IResponsables } from '@/interface/responsables';
 import { IApiResult, parseNumber } from 'fenextjs';
-import responsables from "@/data/responsables.json"
+import responsables from '@/data/responsables.json';
 
 export default ApiEndPoint<IApiResultTable<IResponsables>>(async (req, res) => {
     const { search, status, ...query } = (req?.query ?? {}) as IApiQuery;
@@ -13,7 +13,8 @@ export default ApiEndPoint<IApiResultTable<IResponsables>>(async (req, res) => {
 
     const count = responsables.length;
 
-    const items: IResponsables[] = (responsables as IResponsables[]).filter((e) => {
+    const items: IResponsables[] = (responsables as IResponsables[])
+        .filter((e) => {
             if (search) {
                 return (
                     e?.name?.toLowerCase().includes(search.toLowerCase()) ||
