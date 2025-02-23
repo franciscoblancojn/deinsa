@@ -1,6 +1,6 @@
 import { ChangeLang } from '@/components/ChangeLang';
+import { Logo } from '@/components/Logo';
 import { Container } from '@/ui-fenextjs/Container';
-import { Img } from '@/ui-fenextjs/Img';
 import { Link } from '@/ui-fenextjs/Link';
 import { Title } from '@/ui-fenextjs/Title';
 import { URL } from '@/url';
@@ -12,8 +12,8 @@ export const HeaderLogin = ({}: HeaderLoginProps) => {
         <>
             <Container className="header-login">
                 <Link href={URL.home.index} className="header-login-logo">
-                    <Img src="https://fenextjs-doc.vercel.app/favicon.png" />
-                    <Title tag="h4">Fenextjs</Title>
+                    <Logo/>
+                    <Title tag="h4">Deinsa</Title>
                 </Link>
                 <div>
                     <ChangeLang />

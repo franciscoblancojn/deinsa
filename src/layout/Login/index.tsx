@@ -1,4 +1,4 @@
-import { FenextjsInfo } from '@/components/FenextjsInfo';
+import { DeinsaInfo } from '@/components/DeinsaInfo';
 import { HeaderLogin } from '@/header/Login';
 import { Container } from '@/ui-fenextjs/Container';
 import { LayoutGridMenuTop } from 'fenextjs';
@@ -17,7 +17,7 @@ export const LayoutLogin = ({ children }: LayoutLoginProps) => {
             >
                 <div className="layout-login-content">
                     <Container>
-                        <FenextjsInfo />
+                        <DeinsaInfo />
                         <div>{children}</div>
                     </Container>
                 </div>

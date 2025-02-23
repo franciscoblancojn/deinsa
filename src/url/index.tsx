@@ -13,28 +13,7 @@ export const URL = {
     home: {
         index: '/',
     },
-    user: {
-        index: '/user/',
-        create: {
-            index: '/user/create',
-        },
-    },
-    client: {
-        index: '/client/',
-        create: {
-            index: '/client/create',
-        },
-    },
-    product: {
-        index: '/product/',
-        create: {
-            index: '/product/create',
-        },
-    },
-    sell: {
-        index: '/sell/',
-        create: {
-            index: '/sell/create',
-        },
+    responsables: {
+        index: '/responsables/',
     },
 };

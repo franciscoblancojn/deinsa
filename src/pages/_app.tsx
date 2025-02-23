@@ -1,3 +1,4 @@
+import '../../styles/tailwindcss.css';
 import '../../styles/index.css';
 import type { AppProps } from 'next/app';
 import { NotificationPop, useHistory, QueryClientProvider } from 'fenextjs';

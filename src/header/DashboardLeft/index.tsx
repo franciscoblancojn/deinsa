@@ -20,20 +20,8 @@ export const HeaderDashboardLeft = ({}: HeaderDashboardLeftProps) => {
                                 url: URL.home.index,
                             },
                             {
-                                text: 'Usuarios',
-                                url: URL.user.index,
-                            },
-                            {
-                                text: 'Clientes',
-                                url: URL.client.index,
-                            },
-                            {
-                                text: 'Productos',
-                                url: URL.product.index,
-                            },
-                            {
-                                text: 'Ventas',
-                                url: URL.sell.index,
+                                text: 'Responsables',
+                                url: URL.responsables.index,
                             },
                         ]}
                     />
