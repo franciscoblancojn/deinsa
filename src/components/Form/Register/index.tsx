@@ -9,6 +9,7 @@ import { Link } from '@/ui-fenextjs/Link';
 import { URL } from '@/url';
 export interface FormRegisterProps extends useFormRegisterProps {}
 
+// Componentes de Formulario para registrarce
 export const FormRegister = ({ ...props }: FormRegisterProps) => {
     const {
         data,

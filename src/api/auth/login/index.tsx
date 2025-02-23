@@ -5,6 +5,7 @@ import { useUserDataProps } from '@/hook/useUser';
 export interface useApiLoginProps
     extends useApiMutationCallbackProps<useUserDataProps> {}
 
+// Hook para manejar peticion de auth
 export const useApiLogin = ({ ...props }: useApiLoginProps) => {
     return useApiMutation<IFormLogin, useUserDataProps>({
         url: '/api/auth/login',

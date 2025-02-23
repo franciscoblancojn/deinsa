@@ -5,6 +5,7 @@ import { FormForgotPasswordValidator } from './validator';
 export interface useFormForgotPasswordProps {
     defaultValue?: IFormForgotPassword;
 }
+// Hook para manejar la informacion del formulario
 
 export const useFormForgotPassword = ({
     defaultValue,

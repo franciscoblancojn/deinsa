@@ -8,7 +8,7 @@ export interface LayoutTableProps {
 
     extraFilter?: ReactNode;
 }
-
+//Layout para las paginas de Tablas
 export const LayoutTable = ({
     children,
     top,

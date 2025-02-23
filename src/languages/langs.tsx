@@ -1,7 +1,10 @@
 import { LanguageListProps } from 'fenextjs';
 
+// Listas de Idiomas
 export type LIST_LANGS_TYPE = ['es', 'en'];
 export const LIST_LANGS: LIST_LANGS_TYPE = ['es', 'en'];
+
+// Json de traductor
 
 export const LANGUAGE_LIST: LanguageListProps<LIST_LANGS_TYPE> = {
     Deinsa: {

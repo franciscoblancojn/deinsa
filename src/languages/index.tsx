@@ -3,6 +3,8 @@ import { LANGUAGE_LIST, LIST_LANGS_TYPE, LIST_LANGS } from './langs';
 
 export type LANGS_TYPE = LIST_LANGS_TYPE[number];
 
+// Hook para manejar lenguajes
+
 export const useLang = () => {
     return useLanguage<LIST_LANGS_TYPE>({
         langs: LIST_LANGS,

@@ -7,7 +7,7 @@ import { URL } from '@/url';
 export interface useFormChangePasswordProps {
     defaultValue?: IFormChangePassword;
 }
-
+// Hook para manejar la informacion del formulario
 export const useFormChangePassword = ({
     defaultValue,
 }: useFormChangePasswordProps) => {

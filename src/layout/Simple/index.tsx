@@ -8,6 +8,8 @@ export interface LayoutSimpleProps {
     children?: ReactNode;
 }
 
+// Layout para la carga de paginas de Detalle para manejar error y loader
+
 export const LayoutSimple = ({
     children,
     error,

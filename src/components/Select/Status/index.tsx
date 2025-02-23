@@ -5,6 +5,7 @@ import { InputSelectT, InputSelectTProps } from '@/ui-fenextjs/Input/SelectT';
 export interface InputSelectStatusProps
     extends Omit<InputSelectTProps<IStatus>, 'onParse' | 'options'> {}
 
+// Componentes de Selector de Status
 export const InputSelectStatus = ({ ...props }: InputSelectStatusProps) => {
     return (
         <InputSelectT<IStatus>

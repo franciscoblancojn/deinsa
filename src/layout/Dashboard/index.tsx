@@ -8,7 +8,7 @@ import { HeaderDashboardLeft } from '@/header/DashboardLeft';
 export interface LayoutDashboardProps {
     children?: ReactNode;
 }
-
+// Layout para Paginas del Dashboard
 export const LayoutDashboard = ({ children }: LayoutDashboardProps) => {
     return (
         <>

@@ -7,6 +7,7 @@ export interface FilterStatusProps {
     nameFilter?: string;
 }
 
+// Filtro de Status
 export const FilterStatus = ({ nameFilter }: FilterStatusProps) => {
     const { onChangeData: onChangeDataPagination } = usePagination({
         name: nameFilter,

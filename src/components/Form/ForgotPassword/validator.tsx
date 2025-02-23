@@ -1,6 +1,7 @@
 import { FenextjsValidator } from 'fenextjs-validator';
 import { IFormForgotPassword } from './interface';
 
+// Validador del formulario
 export const FormForgotPasswordValidator =
     FenextjsValidator<IFormForgotPassword>()
         .setName('FormForgotPassword')

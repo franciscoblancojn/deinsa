@@ -7,6 +7,8 @@ import { URL } from '@/url';
 
 export interface HeaderLoginProps {}
 
+// Header de las paginas de auth
+
 export const HeaderLogin = ({}: HeaderLoginProps) => {
     return (
         <>

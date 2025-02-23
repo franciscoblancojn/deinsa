@@ -7,7 +7,7 @@ import { Button } from '@/ui-fenextjs/Button';
 import { Title } from '@/ui-fenextjs/Title';
 
 export interface FormChangePasswordProps extends useFormChangePasswordProps {}
-
+// Componentes de Formulario para cambiar password
 export const FormChangePassword = ({ ...props }: FormChangePasswordProps) => {
     const {
         data,

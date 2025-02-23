@@ -1,5 +1,8 @@
 import { parseDateTimeFormat } from 'fenextjs-functions';
 export type DateValue = Date | string | undefined | null | number;
+
+// Funciones para formatiar fechas
+
 export interface parseDateOptions {
     locales?: string;
 }

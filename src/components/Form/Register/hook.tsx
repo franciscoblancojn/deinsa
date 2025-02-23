@@ -7,6 +7,7 @@ import { URL } from '@/url';
 export interface useFormRegisterProps {
     defaultValue?: IFormRegister;
 }
+// Hook para manejar la informacion del formulario
 
 export const useFormRegister = ({ defaultValue }: useFormRegisterProps) => {
     const router = useRouter();

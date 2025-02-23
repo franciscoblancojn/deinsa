@@ -1,6 +1,7 @@
 import { FenextjsValidator } from 'fenextjs-validator';
 import { IFormLogin } from './interface';
 
+// Validador del formulario
 export const FormLoginValidator = FenextjsValidator<IFormLogin>()
     .setName('FormLogin')
     .isObject({

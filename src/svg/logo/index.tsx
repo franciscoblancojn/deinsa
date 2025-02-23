@@ -1,3 +1,4 @@
+// Svg de Logo de la Pagina
 export const SvgLogo = () => {
     return (
         <>

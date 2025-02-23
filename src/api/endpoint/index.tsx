@@ -1,6 +1,7 @@
 import { ErrorFenextjs, IApiRespond } from 'fenextjs';
 import type { NextApiRequest, NextApiResponse } from 'next';
 
+// Funcion para estandarizar endpoints de /api/*
 export const ApiEndPoint =
     <T,>(
         endpoint: (

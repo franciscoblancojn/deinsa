@@ -5,7 +5,7 @@ import { Title } from '@/ui-fenextjs/Title';
 import React from 'react';
 import { Logo } from '../Logo';
 export interface DeinsaInfoProps {}
-
+// Componente de informacion para mostrar en login
 export const DeinsaInfo = ({}: DeinsaInfoProps) => {
     return (
         <>

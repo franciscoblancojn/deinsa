@@ -15,6 +15,7 @@ import { useRouter } from 'next/router';
 export interface useFormLoginProps {
     defaultValue?: IFormLogin;
 }
+// Hook para manejar la informacion del formulario
 
 export const useFormLogin = ({ defaultValue }: useFormLoginProps) => {
     const router = useRouter();

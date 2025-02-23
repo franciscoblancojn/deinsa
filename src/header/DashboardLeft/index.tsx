@@ -7,6 +7,8 @@ import { Menu } from 'fenextjs';
 
 export interface HeaderDashboardLeftProps {}
 
+// Header de Dashboard en la parte izquierda
+
 export const HeaderDashboardLeft = ({}: HeaderDashboardLeftProps) => {
     const { onLogOut } = useUser({});
     return (

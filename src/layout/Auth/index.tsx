@@ -6,6 +6,7 @@ export interface LayoutAuthProps {
     children?: ReactNode;
 }
 
+// Layout para validar secion de usuario
 export const LayoutAuth = ({ children }: LayoutAuthProps) => {
     const { isValidUser } = useUser({});
     if (!isValidUser) {

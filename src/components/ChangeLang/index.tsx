@@ -7,6 +7,7 @@ import { InputRadio } from '@/ui-fenextjs/Input';
 import { Img } from '@/ui-fenextjs/Img';
 export interface ChangeLangProps {}
 
+// Componente para cambiar idiomas
 export const ChangeLang = ({}: ChangeLangProps) => {
     const { setCurrentLang, currentLang } = useLang();
     return (

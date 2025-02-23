@@ -8,6 +8,7 @@ import { Title } from '@/ui-fenextjs/Title';
 import { Link } from '@/ui-fenextjs/Link';
 import { URL } from '@/url';
 export interface FormForgotPasswordProps extends useFormForgotPasswordProps {}
+// Componentes de Formulario para recuperar password
 
 export const FormForgotPassword = ({ ...props }: FormForgotPasswordProps) => {
     const {

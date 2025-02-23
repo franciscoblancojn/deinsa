@@ -13,6 +13,7 @@ import { parseRole } from '@/parse/Role';
 
 export interface TableResponsablesProps extends ITable<IResponsables> {}
 
+// Tabla de Responsables
 export const TableResponsables = ({ ...props }: TableResponsablesProps) => {
     const { mutate, isPending } = useUpdateResponsables({});
     return (

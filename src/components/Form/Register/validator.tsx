@@ -1,6 +1,7 @@
 import { FenextjsValidator } from 'fenextjs-validator';
 import { IFormRegister } from './interface';
 
+// Validador del formulario
 export const FormRegisterValidator = FenextjsValidator<IFormRegister>()
     .setName('FormRegister')
     .isObject({

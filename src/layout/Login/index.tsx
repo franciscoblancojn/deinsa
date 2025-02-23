@@ -7,7 +7,7 @@ import { ReactNode } from 'react';
 export interface LayoutLoginProps {
     children?: ReactNode;
 }
-
+// Layout para las paginas de Auth
 export const LayoutLogin = ({ children }: LayoutLoginProps) => {
     return (
         <>

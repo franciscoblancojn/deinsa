@@ -11,6 +11,8 @@ import { ButtonMenu, DropDown } from 'fenextjs';
 
 export interface HeaderDashboardProps {}
 
+// Header de Dashboard en la parte superior
+
 export const HeaderDashboard = ({}: HeaderDashboardProps) => {
     const { user, onLogOut } = useUser({});
     return (
