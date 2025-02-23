@@ -8,7 +8,7 @@ export interface Col2AutoProps {
 export const Col2Auto = ({ children }: Col2AutoProps) => {
     return (
         <>
-            <GridCols className="col-2-auto" colsMin992="auto auto">
+            <GridCols className="col-2-auto w-fit" colsMin992="auto auto">
                 {children}
             </GridCols>
         </>

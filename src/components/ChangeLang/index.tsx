@@ -11,7 +11,7 @@ export const ChangeLang = ({}: ChangeLangProps) => {
     const { setCurrentLang, currentLang } = useLang();
     return (
         <>
-            <Container className="change-lang">
+            <Container className="change-lang items-center px-4">
                 <InputRadio<'es' | 'en'>
                     defaultValue={{
                         id: currentLang ?? 'es',
@@ -28,6 +28,7 @@ export const ChangeLang = ({}: ChangeLangProps) => {
                                         src={
                                             'https://country-state-city-nextjs.vercel.app/country/28_espana/img.png'
                                         }
+                                        className='w-6 rounded-full cursor-pointer'
                                     />
                                 </>
                             ),
@@ -41,6 +42,7 @@ export const ChangeLang = ({}: ChangeLangProps) => {
                                         src={
                                             'https://country-state-city-nextjs.vercel.app/country/55_estados_unidos/img.png'
                                         }
+                                        className='w-6 rounded-full cursor-pointer'
                                     />
                                 </>
                             ),
@@ -49,6 +51,9 @@ export const ChangeLang = ({}: ChangeLangProps) => {
                     onChange={(e) => {
                         setCurrentLang(e?.data);
                     }}
+                    classNameContent='grid gap-4 grid-cols-2 items-center'
+                    classNameLabel='gap-0'
+                    classNameContentRadio='!hidden'
                 />
             </Container>
         </>

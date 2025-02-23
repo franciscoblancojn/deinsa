@@ -9,8 +9,8 @@ export interface DeinsaInfoProps {}
 export const DeinsaInfo = ({}: DeinsaInfoProps) => {
     return (
         <>
-            <div className="dainsa-info">
-                <div className="dainsa-info-top">
+            <div className="dainsa-info grid gap-4">
+                <div className="dainsa-info-top flex gap-4 items-center">
                     <div className="w-16">
                         <Logo />
                     </div>

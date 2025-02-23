@@ -1,14 +1,3 @@
 .dainsa-info {
-    display: grid;
-    gap: 1rem;
     width: min(100%, 40rem);
-    &-top {
-        display: grid;
-        grid-template-columns: auto 1fr;
-        gap: 1rem;
-        align-items: center;
-    }
-    .fenext-picture {
-        width: 5rem;
-    }
 }
