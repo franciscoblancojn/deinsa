@@ -15,10 +15,27 @@ export const HeaderDashboard = ({}: HeaderDashboardProps) => {
     const { user, onLogOut } = useUser({});
     return (
         <>
-            <div className="header-dashboard">
+            <div className={`
+                    header-dashboard
+                    flex
+                    justify-between
+                    gap-4
+                    items-center
+                    w-full
+                    px-4
+                
+                `}>
                 <ButtonMenu>
-                    <div className="header-dashboard-logo">
+                    <div className={`
+                        header-dashboard-logo
+                        flex
+                        gap-2
+                        items-center
+
+                        `}>
+                        <div className='w-6'>
                         <Logo />
+                        </div>
                         <Title tag="h4">Deinsa</Title>
                     </div>
                 </ButtonMenu>
@@ -29,12 +46,26 @@ export const HeaderDashboard = ({}: HeaderDashboardProps) => {
                                 <User user={user ?? undefined} />
                             </>
                         }
-                        className="header-dashboard-dropdown-user"
-                        classNameBody="header-dashboard-dropdown-user-body"
+                        className={`
+                            header-dashboard-dropdown-user
+                            !py-0    
+                        `}
+                        classNameBody={`
+                            header-dashboard-dropdown-user-body
+                            grid 
+                            gap-4    
+                        `}
                     >
-                        <div className="header-dashboard-dropdown-user-lang">
+                        <div className={`
+                            header-dashboard-dropdown-user-lang
+                            flex
+                            items-center
+                            gap-4
+                        `}>
                             <Text tag="strong">Idiomas</Text>
-                            <ChangeLang />
+                            <div className='w-16'>
+                                <ChangeLang />
+                            </div>
                         </div>
                         <Button
                             onClick={onLogOut}

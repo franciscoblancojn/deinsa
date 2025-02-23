@@ -11,8 +11,15 @@ export const HeaderDashboardLeft = ({}: HeaderDashboardLeftProps) => {
     const { onLogOut } = useUser({});
     return (
         <>
-            <div className="header-dashboard-left">
-                <div className="header-dashboard-left-menu">
+            <div className={`
+                header-dashboard-left
+                grid
+                gap-4    
+            `}>
+                <div className={`
+                    header-dashboard-left-menu
+                    py-4    
+                `}>
                     <Menu
                         items={[
                             {
@@ -29,7 +36,11 @@ export const HeaderDashboardLeft = ({}: HeaderDashboardLeftProps) => {
                 <Button
                     onClick={onLogOut}
                     full={true}
-                    className="header-dashboard-left-btn-exit"
+                    className={`
+                        header-dashboard-left-btn-exit
+                        !rounded-none
+                        mt-auto
+                    `}
                 >
                     Salir
                 </Button>

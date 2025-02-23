@@ -7430,46 +7430,7 @@ body:has(.fenext-input-radio-input-id-fenext-swich-view-fenext-swich-view-select
   margin: auto;
 }
 
-.header-login {
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
-  align-items: center;
-}
-.header-login-logo {
-  display: grid;
-  grid-template-columns: 1.5rem 1fr;
-  gap: 0.5rem;
-  align-items: center;
-  text-decoration: none;
-}
-
-.header-dashboard {
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
-  align-items: center;
-  width: 100%;
-  padding-inline: 1rem;
-}
-.header-dashboard-logo {
-  display: grid;
-  grid-template-columns: 1.5rem 1fr;
-  gap: 0.5rem;
-  align-items: center;
-  text-decoration: none;
-}
-.header-dashboard-dropdown-user {
-  padding-block: 0;
-}
-.header-dashboard-dropdown-user-lang {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
 .header-dashboard-dropdown-user-body {
-  display: grid;
-  gap: 1rem;
   min-width: 290px;
 }
 .header-dashboard-dropdown-user-body .change-lang {
@@ -7477,16 +7438,7 @@ body:has(.fenext-input-radio-input-id-fenext-swich-view-fenext-swich-view-select
 }
 
 .header-dashboard-left {
-  display: grid;
   grid-template-rows: 1fr auto;
-  gap: 1rem;
-}
-.header-dashboard-left-menu {
-  padding-block: 1rem;
-}
-.header-dashboard-left-btn-exit {
-  border-radius: 0;
-  margin-top: auto;
 }
 
 /*# sourceMappingURL=index.css.map */
