@@ -28,12 +28,14 @@ export const LayoutDashboard = ({ children }: LayoutDashboardProps) => {
                       grid  
                     `}
                 >
-                    <div className={`
+                    <div
+                        className={`
                         layout-dashboard-content
                         grid
                         py-4
                         relative    
-                    `}>
+                    `}
+                    >
                         <Container>{children}</Container>
                     </div>
                 </LayoutGridMenuTopLeft>

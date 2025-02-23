@@ -15,22 +15,32 @@ export const LayoutTable = ({
 }: LayoutTableProps) => {
     return (
         <>
-            <div className={`
+            <div
+                className={`
                     layout-table
                     grid
                     gap-4
-                `}>
-                {top && <div className={`
+                `}
+            >
+                {top && (
+                    <div
+                        className={`
                     layout-table-top
                     grid
                     gap-4
-                `}>{top}</div>}
-                <div className={`
+                `}
+                    >
+                        {top}
+                    </div>
+                )}
+                <div
+                    className={`
                     layout-table-filter
                     flex
                     flex-wrap
                     gap-4    
-                `}>
+                `}
+                >
                     <FilterSearch />
                     <FilterDate />
                     {extraFilter}

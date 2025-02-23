@@ -18,12 +18,14 @@ export const LayoutLogin = ({ children }: LayoutLoginProps) => {
                     grid    
                 `}
             >
-                <div className={`
+                <div
+                    className={`
                     layout-login-content
                     py-4
                     grid
                     items-center    
-                `}>
+                `}
+                >
                     <Container
                         className={`
                             grid

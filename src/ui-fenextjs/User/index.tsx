@@ -7,7 +7,7 @@ import {
 export interface UserProps extends FenextjsUserProps {}
 export const User = ({ className = '', ...props }: UserProps) => {
     return (
-        <FenextjsUser 
+        <FenextjsUser
             className={`
                 my-project-user 
                 !gap-x-2

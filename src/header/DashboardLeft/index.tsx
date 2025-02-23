@@ -11,15 +11,19 @@ export const HeaderDashboardLeft = ({}: HeaderDashboardLeftProps) => {
     const { onLogOut } = useUser({});
     return (
         <>
-            <div className={`
+            <div
+                className={`
                 header-dashboard-left
                 grid
                 gap-4    
-            `}>
-                <div className={`
+            `}
+            >
+                <div
+                    className={`
                     header-dashboard-left-menu
                     py-4    
-                `}>
+                `}
+                >
                     <Menu
                         items={[
                             {

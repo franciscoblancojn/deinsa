@@ -10,21 +10,26 @@ export interface HeaderLoginProps {}
 export const HeaderLogin = ({}: HeaderLoginProps) => {
     return (
         <>
-            <Container className={`
+            <Container
+                className={`
                 header-login
                 flex
                 justify-between
                 gap-4
                 items-center    
-            `}>
-                <Link href={URL.home.index} className={`
+            `}
+            >
+                <Link
+                    href={URL.home.index}
+                    className={`
                     header-login-logo
                     flex
                     gap-2
                     items-center
 
-                `}>
-                    <div className='w-6'>
+                `}
+                >
+                    <div className="w-6">
                         <Logo />
                     </div>
                     <Title tag="h4">Deinsa</Title>

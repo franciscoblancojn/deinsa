@@ -15,7 +15,8 @@ export const HeaderDashboard = ({}: HeaderDashboardProps) => {
     const { user, onLogOut } = useUser({});
     return (
         <>
-            <div className={`
+            <div
+                className={`
                     header-dashboard
                     flex
                     justify-between
@@ -24,17 +25,20 @@ export const HeaderDashboard = ({}: HeaderDashboardProps) => {
                     w-full
                     px-4
                 
-                `}>
+                `}
+            >
                 <ButtonMenu>
-                    <div className={`
+                    <div
+                        className={`
                         header-dashboard-logo
                         flex
                         gap-2
                         items-center
 
-                        `}>
-                        <div className='w-6'>
-                        <Logo />
+                        `}
+                    >
+                        <div className="w-6">
+                            <Logo />
                         </div>
                         <Title tag="h4">Deinsa</Title>
                     </div>
@@ -56,14 +60,16 @@ export const HeaderDashboard = ({}: HeaderDashboardProps) => {
                             gap-4    
                         `}
                     >
-                        <div className={`
+                        <div
+                            className={`
                             header-dashboard-dropdown-user-lang
                             flex
                             items-center
                             gap-4
-                        `}>
+                        `}
+                        >
                             <Text tag="strong">Idiomas</Text>
-                            <div className='w-16'>
+                            <div className="w-16">
                                 <ChangeLang />
                             </div>
                         </div>

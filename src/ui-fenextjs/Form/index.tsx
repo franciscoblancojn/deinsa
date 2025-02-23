@@ -4,12 +4,15 @@ import { Form as FenextjsForm, FormProps as FenextjsFormProps } from 'fenextjs';
 export interface FormProps extends FenextjsFormProps {}
 export const Form = ({ children, className = '', ...props }: FormProps) => {
     return (
-        <FenextjsForm className={`
+        <FenextjsForm
+            className={`
             my-project-form 
             grid
             gap-4
             ${className}
-        `} {...props}>
+        `}
+            {...props}
+        >
             {children}
         </FenextjsForm>
     );
