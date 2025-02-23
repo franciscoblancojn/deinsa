@@ -1,0 +1,24 @@
+.layout-dashboard {
+    .fenext-layout-grid-mt-children {
+        display: grid;
+        &:has(.fenext-layout-grid-alert) {
+            grid-template-rows: auto 1fr;
+        }
+    }
+    &-content {
+        padding-block: 1rem;
+        display: grid;
+        // align-items: center;
+        min-height: calc(100dvh - var(--fenext-size-menu-top));
+        position: relative;
+    }
+    .fenext-layout-grid-ml-menu-left,
+    .fenext-layout-grid-ml-menu-left-content {
+        display: grid;
+    }
+}
+@media (max-width: 575px) {
+    :root {
+        --fenext-size-menu-left-max: : 100%;
+    }
+}

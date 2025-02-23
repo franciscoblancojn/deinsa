@@ -1,0 +1,16 @@
+.my-project-text {
+}
+
+.text-description {
+    width: 100%;
+    max-width: 30rem;
+}
+
+.text-table {
+    max-width: 15rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}

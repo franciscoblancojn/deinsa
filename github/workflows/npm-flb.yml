@@ -1,0 +1,30 @@
+name: Run FLB
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  run-flb:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Paso 1: Checkout del código
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Paso 2: Configurar Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18.x
+          cache: 'npm'
+
+      # Paso 3: Instalar dependencias
+      - name: Install dependencies
+        run: npm install
+
+      # Paso 4: Ejecutar npm run flb
+      - name: Run FLB script
+        run: npm run flb

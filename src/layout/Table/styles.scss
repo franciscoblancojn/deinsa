@@ -1,0 +1,18 @@
+.layout-table {
+    display: grid;
+    gap: 1rem;
+    &-top {
+        display: grid;
+        gap: 1rem;
+    }
+    &-filter {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    &-content {
+        .fenext-table {
+            max-height: calc(100dvh - 11.5rem - var(--fenext-size-menu-top));
+        }
+    }
+}
