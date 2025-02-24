@@ -1,5 +1,5 @@
 import { useLang } from '@/languages';
-import {  FilterSearch } from 'fenextjs';
+import { FilterSearch } from 'fenextjs';
 import { ReactNode } from 'react';
 
 export interface LayoutTableProps {

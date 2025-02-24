@@ -27,7 +27,9 @@ export const TableResponsables = ({ ...props }: TableResponsablesProps) => {
                                     icon={<SvgCheck />}
                                     onClick={() => {
                                         mutate({
-                                            ids: users?.map((e) => e.IDResponsable),
+                                            ids: users?.map(
+                                                (e) => e.IDResponsable,
+                                            ),
                                             status: IStatus.ACTIVE,
                                         });
                                     }}
@@ -47,7 +49,9 @@ export const TableResponsables = ({ ...props }: TableResponsablesProps) => {
                                     icon={<SvgClose />}
                                     onClick={() => {
                                         mutate({
-                                            ids: users?.map((e) => e.IDResponsable),
+                                            ids: users?.map(
+                                                (e) => e.IDResponsable,
+                                            ),
                                             status: IStatus.INACTIVE,
                                         });
                                     }}
@@ -67,7 +71,9 @@ export const TableResponsables = ({ ...props }: TableResponsablesProps) => {
                                     icon={<SvgTrash />}
                                     onClick={() => {
                                         mutate({
-                                            ids: users?.map((e) => e.IDResponsable),
+                                            ids: users?.map(
+                                                (e) => e.IDResponsable,
+                                            ),
                                             status: IStatus.DELETE,
                                         });
                                     }}
@@ -88,7 +94,9 @@ export const TableResponsables = ({ ...props }: TableResponsablesProps) => {
                         return (
                             <Link
                                 useT={false}
-                                href={URL.responsables.index + user.IDResponsable}
+                                href={
+                                    URL.responsables.index + user.IDResponsable
+                                }
                             >
                                 {user?.IDResponsable}
                             </Link>
@@ -102,7 +110,9 @@ export const TableResponsables = ({ ...props }: TableResponsablesProps) => {
                         return (
                             <Link
                                 useT={false}
-                                href={URL.responsables.index + user.IDResponsable}
+                                href={
+                                    URL.responsables.index + user.IDResponsable
+                                }
                             >
                                 {user?.Responsable}
                             </Link>

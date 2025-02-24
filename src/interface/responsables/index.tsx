@@ -1,10 +1,9 @@
-
 export interface IResponsables {
-    Correo: string
-    IDCategoria: string
-    IDResponsable: string
-    IDTipo: string
-    Puesto: string
-    Responsable: string
-    Telefono: string
+    Correo: string;
+    IDCategoria: string;
+    IDResponsable: string;
+    IDTipo: string;
+    Puesto: string;
+    Responsable: string;
+    Telefono: string;
 }
