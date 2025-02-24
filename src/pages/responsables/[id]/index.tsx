@@ -3,9 +3,6 @@ import { useSingleResponsables } from '@/api/responsables/single';
 import { Col2Auto } from '@/components/Col2Auto';
 import { LayoutDashboard } from '@/layout/Dashboard';
 import { LayoutSimple } from '@/layout/Simple';
-import { parseDateTimeFormat_DD_MM_YY } from '@/parse/Dates';
-import { parseRole } from '@/parse/Role';
-import { parseStatus } from '@/parse/Status';
 import { Link } from '@/ui-fenextjs/Link';
 import { Text } from '@/ui-fenextjs/Text';
 import { Title } from '@/ui-fenextjs/Title';
@@ -18,29 +15,31 @@ export const PageResponsablesSingle = () => {
                 <LayoutSimple error={error?.error} loader={isLoading}>
                     <Col2Auto>
                         <Title>Responsable</Title>
-                        <Title useT={false}>{data?.name}</Title>
+                        <Title useT={false}>{data?.Responsable}</Title>
                         <Text>ID</Text>
-                        <Text useT={false}>#{data?.id}</Text>
+                        <Text useT={false}>#{data?.IDResponsable}</Text>
                         <Text>Email</Text>
                         <Link
-                            href={`mailto:${data?.email}`}
+                            href={`mailto:${data?.Correo}`}
                             target="_blank"
                             useT={false}
                         >
-                            {data?.email}
+                            {data?.Correo}
                         </Link>
-                        <Text>Rol</Text>
-                        <Text useT={false}>{parseRole(data?.role)}</Text>
-                        <Text>Estatus</Text>
-                        <Text useT={false}>{parseStatus(data?.status)}</Text>
-                        <Text>Fecha de creacion</Text>
-                        <Text useT={false}>
-                            {parseDateTimeFormat_DD_MM_YY(data?.createdAt)}
-                        </Text>
-                        <Text>Fecha de actualizacion</Text>
-                        <Text useT={false}>
-                            {parseDateTimeFormat_DD_MM_YY(data?.updatedAt)}
-                        </Text>
+                        <Text>Telefono</Text>
+                        <Link
+                            href={`tel:${data?.Telefono}`}
+                            target="_blank"
+                            useT={false}
+                        >
+                            {data?.Telefono}
+                        </Link>
+                        <Text>IDCategoria</Text>
+                        <Text useT={false}>#{data?.IDCategoria}</Text>
+                        <Text>IDTipo</Text>
+                        <Text useT={false}>#{data?.IDTipo}</Text>
+                        <Text>Puesto</Text>
+                        <Text useT={false}>#{data?.Puesto}</Text>
                     </Col2Auto>
                 </LayoutSimple>
             </LayoutDashboard>

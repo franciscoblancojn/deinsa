@@ -2,14 +2,11 @@ import { useUpdateResponsables } from '@/api/responsables/update';
 import { IResponsables } from '@/interface/responsables';
 import { IStatus } from '@/interface/status';
 import { ITable } from '@/interface/table';
-import { parseDateTimeFormat_DD_MM_YY } from '@/parse/Dates';
-import { parseStatus } from '@/parse/Status';
 import { Button } from '@/ui-fenextjs/Button';
 import { Link } from '@/ui-fenextjs/Link';
 import { Table } from '@/ui-fenextjs/Table';
 import { URL } from '@/url';
 import { SvgCheck, SvgClose, SvgTrash } from 'fenextjs';
-import { parseRole } from '@/parse/Role';
 
 export interface TableResponsablesProps extends ITable<IResponsables> {}
 
@@ -30,7 +27,7 @@ export const TableResponsables = ({ ...props }: TableResponsablesProps) => {
                                     icon={<SvgCheck />}
                                     onClick={() => {
                                         mutate({
-                                            ids: users?.map((e) => e.id),
+                                            ids: users?.map((e) => e.IDResponsable),
                                             status: IStatus.ACTIVE,
                                         });
                                     }}
@@ -50,7 +47,7 @@ export const TableResponsables = ({ ...props }: TableResponsablesProps) => {
                                     icon={<SvgClose />}
                                     onClick={() => {
                                         mutate({
-                                            ids: users?.map((e) => e.id),
+                                            ids: users?.map((e) => e.IDResponsable),
                                             status: IStatus.INACTIVE,
                                         });
                                     }}
@@ -70,7 +67,7 @@ export const TableResponsables = ({ ...props }: TableResponsablesProps) => {
                                     icon={<SvgTrash />}
                                     onClick={() => {
                                         mutate({
-                                            ids: users?.map((e) => e.id),
+                                            ids: users?.map((e) => e.IDResponsable),
                                             status: IStatus.DELETE,
                                         });
                                     }}
@@ -85,75 +82,74 @@ export const TableResponsables = ({ ...props }: TableResponsablesProps) => {
             }}
             header={[
                 {
-                    id: 'id',
+                    id: 'IDResponsable',
                     th: 'ID',
                     parse: (user) => {
                         return (
                             <Link
                                 useT={false}
-                                href={URL.responsables.index + user.id}
+                                href={URL.responsables.index + user.IDResponsable}
                             >
-                                {user?.id}
+                                {user?.IDResponsable}
                             </Link>
                         );
                     },
                 },
                 {
-                    id: 'name',
-                    th: 'Nombre',
+                    id: 'Responsable',
+                    th: 'Responsable',
                     parse: (user) => {
                         return (
                             <Link
                                 useT={false}
-                                href={URL.responsables.index + user.id}
+                                href={URL.responsables.index + user.IDResponsable}
                             >
-                                {user?.name}
+                                {user?.Responsable}
                             </Link>
                         );
                     },
                 },
                 {
-                    id: 'email',
+                    id: 'IDCategoria',
+                    th: 'IDCategoria',
+                },
+                {
+                    id: 'Correo',
                     th: 'Correo',
                     parse: (user) => {
                         return (
                             <Link
                                 useT={false}
-                                href={'mailto:' + user.email}
+                                href={'mailto:' + user.Correo}
                                 target="_blank"
                             >
-                                {user?.email}
+                                {user?.Correo}
                             </Link>
                         );
                     },
                 },
                 {
-                    id: 'status',
-                    th: 'Estatus',
+                    id: 'Telefono',
+                    th: 'Telefono',
                     parse: (user) => {
-                        return parseStatus(user?.status);
+                        return (
+                            <Link
+                                useT={false}
+                                href={'tel:' + user.Telefono}
+                                target="_blank"
+                            >
+                                {user?.Telefono}
+                            </Link>
+                        );
                     },
                 },
                 {
-                    id: 'role',
-                    th: 'Rol',
-                    parse: (user) => {
-                        return parseRole(user?.role);
-                    },
+                    id: 'IDTipo',
+                    th: 'IDTipo',
                 },
                 {
-                    id: 'createdAt',
-                    th: 'Fecha de Creacion',
-                    parse: (user) => {
-                        return parseDateTimeFormat_DD_MM_YY(user?.createdAt);
-                    },
-                },
-                {
-                    id: 'updatedAt',
-                    th: 'Fecha de Actualizacion',
-                    parse: (user) => {
-                        return parseDateTimeFormat_DD_MM_YY(user?.updatedAt);
-                    },
+                    id: 'Puesto',
+                    th: 'Puesto',
                 },
             ]}
         />

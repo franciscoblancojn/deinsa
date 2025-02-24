@@ -1,5 +1,5 @@
 import { useLang } from '@/languages';
-import { FilterDate, FilterSearch } from 'fenextjs';
+import {  FilterSearch } from 'fenextjs';
 import { ReactNode } from 'react';
 
 export interface LayoutTableProps {
@@ -44,7 +44,6 @@ export const LayoutTable = ({
                 `}
                 >
                     <FilterSearch _t={onTranslate} />
-                    <FilterDate _t={onTranslate} />
                     {extraFilter}
                 </div>
                 <div className="layout-table-content">{children}</div>

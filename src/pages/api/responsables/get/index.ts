@@ -2,7 +2,7 @@ import { ApiEndPoint } from '@/api/endpoint';
 import { IApiQuery, IApiResultTable } from '@/interface/api';
 import { IResponsables } from '@/interface/responsables';
 import { IApiResult, parseNumber } from 'fenextjs';
-import responsables from '@/data/responsables.json';
+import fileJson from '@/data/responsables.json';
 
 export default ApiEndPoint<IApiResultTable<IResponsables>>(async (req, res) => {
     const { search, status, ...query } = (req?.query ?? {}) as IApiQuery;
@@ -11,25 +11,24 @@ export default ApiEndPoint<IApiResultTable<IResponsables>>(async (req, res) => {
     const npage = parseNumber(query?.npage ?? 10);
     const page = parseNumber(query?.page ?? 0);
 
-    const count = responsables.length;
 
-    const items: IResponsables[] = (responsables as IResponsables[])
+    let items: IResponsables[] = (fileJson?.data?.responsables as IResponsables[])
         .filter((e) => {
             if (search) {
                 return (
-                    e?.name?.toLowerCase().includes(search.toLowerCase()) ||
-                    search?.toLowerCase().includes(e?.name.toLowerCase())
+                    e?.Responsable?.toLowerCase().includes(search.toLowerCase()) ||
+                    search?.toLowerCase().includes(e?.Responsable.toLowerCase())
                 );
             }
-            if (status) {
-                return e?.status == status;
-            }
             if (id) {
-                return `${e?.id}` == `${id}`;
+                return `${e?.IDResponsable}` == `${id}`;
             }
             return true;
         })
-        .slice(page * npage, (page + 1) * npage);
+
+    
+        const count = items.length;
+        items = items.slice(page * npage, (page + 1) * npage);
 
     const data: IApiResultTable<IResponsables> = {
         count,

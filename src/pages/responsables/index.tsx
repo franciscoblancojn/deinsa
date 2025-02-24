@@ -1,7 +1,6 @@
 'use client';
 import { useQueryResponsables } from '@/api/responsables/query';
 import { Col1frAuto } from '@/components/Col1frAuto';
-import { FilterStatus } from '@/filter/Status';
 import { LayoutDashboard } from '@/layout/Dashboard';
 import { LayoutTable } from '@/layout/Table';
 import { TableResponsables } from '@/table/responsables';
@@ -24,11 +23,6 @@ export const PageResponsables = () => {
                                     </Text>
                                 </div>
                             </Col1frAuto>
-                        </>
-                    }
-                    extraFilter={
-                        <>
-                            <FilterStatus />
                         </>
                     }
                 >

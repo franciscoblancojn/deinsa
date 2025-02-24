@@ -1,13 +1,10 @@
-import { IRole } from '../role';
-import { IStatus } from '../status';
 
-// Interface para datos de Responsables
 export interface IResponsables {
-    id: string;
-    name: string;
-    email: string;
-    status: IStatus;
-    role: IRole;
-    createdAt: string;
-    updatedAt: string;
+    Correo: string
+    IDCategoria: string
+    IDResponsable: string
+    IDTipo: string
+    Puesto: string
+    Responsable: string
+    Telefono: string
 }
