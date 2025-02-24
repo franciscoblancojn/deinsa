@@ -8,8 +8,8 @@ export default ApiEndPoint<IApiResultTable<IResponsables>>(async (req, res) => {
     const { search, ...query } = (req?.query ?? {}) as IApiQuery;
     const { id } = query as any;
 
-    const npage = parseNumber(query?.npage ?? 10);
-    const page = parseNumber(query?.page ?? 0);
+    const npage = id ? 1 : parseNumber(query?.npage ?? 10);
+    const page = id ? 0 : parseNumber(query?.page ?? 0);
 
     let items: IResponsables[] = (
         fileJson?.data?.responsables as IResponsables[]
